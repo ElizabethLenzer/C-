@@ -75,6 +75,9 @@ class SinglyLinkedList {
 
         oldHead = this.head
         this.head = this.next
+         
+
+
         
 
     }
