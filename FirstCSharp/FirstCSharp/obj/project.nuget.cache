@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jwX1+QmqLdio851RTUG9G6UNW7JV6DoszzZxcazreTatHBSaio4ndU6iVBmcjE5Nx55uM4s95n9JWUXgHyVjzg==",
+  "dgSpecHash": "2lKCj5julA1IFYiayjY5cV6pU100hc6GRZL1Sp9vaYHFw4smRcL6YNpcPMk9OVqFOMpYAA82iNuVYiYwhhyc4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\FirstCSharp\\FirstCSharp\\FirstCSharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\eliza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\eliza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }
