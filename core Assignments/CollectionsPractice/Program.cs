@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CollectionsPractice
 {
@@ -36,9 +37,26 @@ namespace CollectionsPractice
             flavors.Add("Mint");
             flavors.Add("Mango");
 
-            Console.WriteLine(flavors.count);
-            
+            Console.WriteLine(flavors.Count);
+            Console.WriteLine(flavors[3]);
+            flavors.RemoveAt(3);
+            Console.WriteLine(flavors.Count);
+            foreach(string flavor in flavors)
+            {
+                Console.WriteLine(flavor);
+            }
 
+            //User Info Dictionary
+            Random rand = new Random();
+            Dictionary<string,string> favorites = new Dictionary<string,string>();
+            foreach (string person in myNames)
+            {
+                favorites.Add(person, flavors[rand.Next(flavors.Count)]);
+            }
+            foreach (var person in favorites)
+            {
+                Console.WriteLine(person.Key + person.Value);
+            }
         }
     }
 }
