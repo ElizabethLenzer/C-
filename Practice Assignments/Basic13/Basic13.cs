@@ -37,7 +37,6 @@ namespace Basic13
         }
         public static int FindMax(int[] numbers)
         {
-            // set curr max to smallest number possible
             int currMax = Int32.MinValue;
             foreach(int num in numbers)
             {
@@ -59,10 +58,7 @@ namespace Basic13
         }
         public static int[] OddArray()
         {
-            // first we must find size of array
             int size = (255/2) + 1;
-
-            // now we can make array, with size
             int[] odds = new int[size];
 
             int i = 0;
