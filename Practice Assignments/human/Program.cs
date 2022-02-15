@@ -9,7 +9,7 @@ namespace human
             Console.WriteLine("Hello World!");
         }
     }
-    class human
+    class Human
     {
         //Fields for Human
         public string Name;
