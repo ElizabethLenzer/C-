@@ -2,25 +2,15 @@
 
 namespace DeckOfCards
 {
-    class Card
+    class program
     {
-        public string Name { get; set; }
-        public string Suit { get; set; }
-        public int Value { get; set; }
-
-        public Card { }
-        public Card (string name, string suit,)
+        static void Main(string[] args)
         {
-            Name = name;
-            suit = suit;
-            Value = ValueTuple;
-        }
-        public override string ToString()
-        {
-            return $@"
-            Name : {Name}
-            Suit: {Suit}
-            Value: {Value}';
+            Deck NewDeck = new Deck();  
+            // Card RemoveCard = NewDeck.remove();
+            // RemoveCard.print();
+            NewDeck.Shuffle();
+            NewDeck.print();
         }
     }
 }
