@@ -6,7 +6,16 @@ namespace WizardNinjaSamurai
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ninja Liz = new Ninja("Liz");
+            Wizard Brittany = new Wizard("Brittany the great");
+            Samurai Nathan = new Samurai("Samurai Nate");
+            Nathan.Attack(Brittany);
+            Brittany.Heal(Brittany);
+            Nathan.Meditate();
+            Liz.Attack(Nathan);
+            Liz.Steal(Brittany);
+            Brittany.Attack(Nathan);
+            Nathan.Attack(Liz);
         }
     }
 }

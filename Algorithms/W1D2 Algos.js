@@ -57,9 +57,10 @@ class SinglyLinkedList {
         //then we want to set the new node's "next" node to be the current head
         // this is so we can keep track of the rest of the list when we swap heads
         // then we set "this" head to be the new node
-        newNode = new Node(data);
-        newNode.next = this.head;
-        this.head = newNode;
+        const newFront = new ListNode(data);
+        newFront.next = this.head; //point to the value of the head
+        this.head = newFront; //setting it equal to the same variable that 
+        return this;
     }
 
     /**
@@ -73,12 +74,6 @@ class SinglyLinkedList {
         // then we can set the head to be equal to its own next node
         // the we can delete the old head or let garbage collection do it
 
-        oldHead = this.head
-        this.head = this.next
-         
-
-
-        
 
     }
 
@@ -207,3 +202,5 @@ class SinglyLinkedList {
   
   // Print your list like so:
   // console.log(firstThreeList.toArr());
+  const listAddedToFront = new SinglyLinkedList().insertAtFront(1).insertAtFront(2).insertAtFront(4);
+  console.log(listAddedToFront);
