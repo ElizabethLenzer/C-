@@ -11,11 +11,11 @@ namespace DojoSurvey.Controllers
             return View();
         }
         [HttpPost("result")]
-        public ViewResult Result(string Name, string Location, string Favorite, string Comment);
+        public ViewResult Result(string Name, string Location, string Language, string Comment)
         {
             ViewBag.name = Name;
             ViewBag.location = Location;
-            ViewBag.favorite = Favorite;
+            ViewBag.language = Language;
             ViewBag.comment = Comment;
 
             return View();
