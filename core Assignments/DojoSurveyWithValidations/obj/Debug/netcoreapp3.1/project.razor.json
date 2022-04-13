@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\DojoSurvey\\DojoSurvey.csproj",
+  "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\DojoSurveyWithValidations\\DojoSurveyWithValidations.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14399,16 +14399,16 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "DojoSurvey",
+  "RootNamespace": "DojoSurveyWithValidations",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\DojoSurvey\\Views\\Home\\Form.cshtml",
-      "TargetPath": "Views\\Home\\Form.cshtml",
+      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\DojoSurveyWithValidations\\Views\\Form.cshtml",
+      "TargetPath": "Views\\Form.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\DojoSurvey\\Views\\Home\\Result.cshtml",
-      "TargetPath": "Views\\Home\\Result.cshtml",
+      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\DojoSurveyWithValidations\\Views\\Result.cshtml",
+      "TargetPath": "Views\\Result.cshtml",
       "FileKind": "mvc"
     }
   ],
