@@ -54,3 +54,4 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\core Assignments\Crudelicious\o
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\core Assignments\Crudelicious\obj\Debug\netcoreapp3.1\Crudelicious.genruntimeconfig.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\core Assignments\Crudelicious\obj\Debug\netcoreapp3.1\Razor\Views\Main\NewDish.cshtml.g.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\core Assignments\Crudelicious\obj\Debug\netcoreapp3.1\Razor\Views\Main\ViewDish.cshtml.g.cs
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\core Assignments\Crudelicious\obj\Debug\netcoreapp3.1\Razor\Views\Main\EditDish.cshtml.g.cs
