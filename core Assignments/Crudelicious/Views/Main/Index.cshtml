@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crudelicious</title>
+</head>
+<body>
+    <h1>Welcome to CRUDelicious</h1>
+    <h3>Ceck out some recent dishes!</h3>
+    <a href="new">Add a Dish</a>
+    @using Crudelicious.Models;
+    @Model List<>;
+        <ul>
+            @foreach (Dish dish in Model)
+            {
+                <li> <a href="#">@dish.Name</a> by @dish.Chef</li>
+
+            }
+        </ul>
+</body>
+</html>
