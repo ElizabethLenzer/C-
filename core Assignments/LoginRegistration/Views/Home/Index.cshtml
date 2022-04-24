@@ -1,17 +1,17 @@
-﻿<!DOCTYPE html>
+﻿@model User
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @model User
     <title>Document</title>
 </head>
 <body>
     <h1>Register to this Cool Site!</h1>
     <a href="/login">Login</a>
 
-    <form asp-action="Registration" asp-controllers="Home" method="POST">
+    <form asp-action="Register" asp-controllers="Home" method="POST">
             <label asp-for="FirstName"></label>
             <input asp-for="FirstName">
             <span asp-validation-for="FirstName"></span>

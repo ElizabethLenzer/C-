@@ -59,10 +59,6 @@ namespace LoginRegistration.Controllers
             {
                 ModelState.AddModelError("LoginEmail", "Email not found");
             }
-            if (ModelState.IsValid == false)
-            {
-                return View("Login");
-            }
             PasswordHasher<LoginUser> hasher = new PasswordHasher<LoginUser>();
             PasswordVerificationResult PWCompareResult = hasher.VerifyHashedPassword(loginUser, DBUser.Password, loginUser.LoginPassword);
             if (PWCompareResult == 0)
