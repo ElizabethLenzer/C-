@@ -12,11 +12,11 @@ namespace ChefsNDishes.Models
         public int DishId { get; set; }
 
         [Required]
-        [Display(Name = "Name of Dish")]
+        [Display(Name = "Name Of Dish")]
         public string DishName { get; set; }
 
         [Required]
-        [Display(Name = "number of calories")]
+        [Display(Name = "Number Of Calories")]
         [Range(1, int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]
         public int Calories { get; set; }
 
