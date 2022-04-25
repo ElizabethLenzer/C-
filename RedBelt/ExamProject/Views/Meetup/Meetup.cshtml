@@ -1,0 +1,68 @@
+@model Meetup
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetup</title>
+</head>
+<body>
+<div class="card text-center">
+    <div class="card-header">
+        <h1>@Model.MeetupTitle</h1>
+        <small>Created by: @Model.Author.FullName()</small>
+    </div>
+    <div class="card-body">
+    <h3 class="card-title">Details @Model.MeetupDetails</h3>
+    <h5>Date: @Model.MeetUpDate.ToString("MM/dd/yyyy")</h5>
+    <p class="card-text">Participants
+        
+        @foreach (Attendance rsvp in  Model.MeetupAttendees)
+        {
+            <div>
+                <small>@rsvp.User.FullName()</small>
+            </div>
+        }
+        
+    </p>
+
+    </div>
+    <div class="card-footer text-muted">
+        Created :@Model.CreatedAt 
+        <div>
+            Updated: @Model.UpdatedAt
+        </div>
+    </div>
+</div>
+@{bool existingRSVP = Model.MeetupAttendees
+.Any(rsvp => rsvp.UserId == Context.Session.GetInt32("UserId"));}
+@if(Context.Session.GetInt32("UserId") !=Model.UserId)
+    {
+        <form asp-controller="Meetup" asp-action="RSVP" asp-route-meetupId="@Model.MeetupId">
+        <button class="btn btn-info btn-sm">
+            @if (existingRSVP)
+            {
+            <span>Un-RSVP</span>
+            }
+            else
+            {
+            <span>RSVP</span>
+            }
+        </button>
+        </form>
+    }
+    else
+    {
+        <form asp asp-controller="Meetup" asp-action="DeleteMeetup" asp-route-meetupId="@Model.MeetupId">
+            <button class="btn btn-danger">Delete</button>
+        </form>
+    }
+
+    <a href="/Dashboard" class="btn btn-primary">Dashboard</a>
+    <form asp-controller="Home" asp-action="Logout">
+        <button class="btn btn-warning">Log Out</button>
+    </form>
+</body>
+</html>

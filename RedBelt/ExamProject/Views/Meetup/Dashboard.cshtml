@@ -1,0 +1,71 @@
+@model List<Meetup>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>All Meetups</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Meetup</th>
+                    <th>Date and Time</th>
+                    <th>Duration</th>
+                    <th>Event Coordinator</th>
+                    <th>Number of Participants</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Meetup meetup in Model)
+                {
+                    bool existingRSVP = meetup.MeetupAttendees
+                    .Any(rsvp => rsvp.UserId == Context.Session.GetInt32("UserId"));
+                    <tr>
+                        <td><a asp-controller="Meetup" asp-action="Meetup" asp-route-meetupId="@meetup.MeetupId">@meetup.MeetupTitle</a></td>
+                        <td>@meetup.MeetUpDate.ToString("MM/dd/yyyy")</td>
+                        <td>@meetup.MeetupDuration</td>
+                        <td>@meetup.Author.FirstName</td>
+                        <td>@meetup.MeetupAttendees.Count</td>
+                        <td>
+                            @if(Context.Session.GetInt32("UserId") !=meetup.UserId)
+                            {
+                                <form asp-controller="Meetup" asp-action="RSVP" asp-route-meetupId="@meetup.MeetupId">
+                                <button class="btn btn-info btn-sm">
+                                    @if (existingRSVP)
+                                    {
+                                    <span>Un-RSVP</span>
+                                    }
+                                    else
+                                    {
+                                    <span>RSVP</span>
+                                    }
+                                </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form asp asp-controller="Meetup" asp-action="DeleteMeetup" asp-route-meetupId="@meetup.MeetupId">
+                                    <button class="btn btn-danger">Delete</button>
+                                </form>
+                            }
+                            
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="NewMeetup" class="btn btn-primary">Add Meetup</a>
+        <form asp-controller="Home" asp-action="Logout">
+            <button class="btn btn-warning">Log Out</button>
+        </form>
+
+    </div>
+</body>
+</html>
