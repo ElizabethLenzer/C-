@@ -25,7 +25,6 @@ namespace ExamProject.Models
         public DateTime MeetUpDate { get;set; }
         //MeetUpDURATION
         [Required(ErrorMessage ="is required.")]
-        
         [Display(Name = "Duration")]
         
         public int MeetupDuration { get;set; }
