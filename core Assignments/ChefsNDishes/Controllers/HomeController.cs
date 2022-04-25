@@ -11,7 +11,31 @@ namespace ChefsNDishes.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet("NewDish")]
         
+        public IActionResult AddDishView()
+        {
+            List<Chef> AllChefs = db.chefs.ToList();
+            ViewBag.allchefs = AllChefs;
+            return View("AddDish");
+        }
+
+        [HttpPost("/dishes/addnew")]
+        public IActionResult AddDish(Dish dish)
+        {
+            if(ModelState.IsValid)
+            {
+                db.Add(dish);
+                db.SaveChanges();
+                return RedirectToAction("AddDishView");
+            }
+            else 
+            {
+                List<Chef> AllChefs = db.chefs.ToList();
+                ViewBag.allchefs = AllChefs;
+                return View("AddDish", dish);
+            }
+        }
         [HttpPost("AddChef")]
         public IActionResult AddChef(Chef chef)
         {

@@ -14402,11 +14402,6 @@
   "RootNamespace": "ChefsNDishes",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\ChefsNDishes\\Views\\Home\\Dish.cshtml",
-      "TargetPath": "Views\\Home\\Dish.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\ChefsNDishes\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14414,11 @@
     {
       "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\ChefsNDishes\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\core Assignments\\ChefsNDishes\\Views\\Home\\Dishes.cshtml",
+      "TargetPath": "Views\\Home\\Dishes.cshtml",
       "FileKind": "mvc"
     },
     {
