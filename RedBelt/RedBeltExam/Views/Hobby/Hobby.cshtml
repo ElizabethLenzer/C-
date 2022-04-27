@@ -1,0 +1,57 @@
+@model Hobby
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+</head>
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>@Model.HobbyName</h1>
+            <small>Created by: @Model.Author.FullName()</small>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title">Details @Model.HobbyDetails</h3>
+            <p class="card-text">Participants
+                @foreach (Attendance rsvp in Model.HobbyAttendees)
+                {
+                    <div>
+                        <h3>@rsvp.User.FullName()</h3>
+                    </div>
+                }
+            </p>
+        </div>
+        <div class="card-footer text-muted">
+            <div>Created: @Model.CreatedAt</div>
+            <div>Updated: @Model.UpdatedAt</div>
+        </div>
+    </div>
+    @{bool existingRSVP = Model.HobbyAttendees
+.Any(rsvp => rsvp.UserId == Context.Session.GetInt32("UserId"));}
+@if(Context.Session.GetInt32("UserId") !=Model.UserId)
+    {
+        <form asp-controller="Hobby" asp-action="RSVP" asp-route-meetupId="@Model.HobbyId">
+        <button class="btn btn-info btn-sm">
+            @if (existingRSVP)
+            {
+            <span>Un-RSVP</span>
+            }
+            else
+            {
+            <span>RSVP</span>
+            }
+        </button>
+        </form>
+    }
+    else
+    {
+        <form asp asp-controller="Meetup" asp-action="DeleteMeetup" asp-route-meetupId="@Model.HobbyId">
+            <button class="btn btn-danger">Delete</button>
+        </form>
+    }
+</body>
+</html>

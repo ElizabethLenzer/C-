@@ -1,0 +1,36 @@
+@model Hobby
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Hobby</title>
+</head>
+<body>
+    <h1>Plan your new Hobby</h1>
+
+    <form asp-action="Create" asp-controller="Hobby">
+        <div class="form-group">
+            <label asp-for="HobbyName"></label>
+            <input asp-for="HobbyName" class="form-control">
+            <span asp-validation-for="HobbyName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="HobbyDetails"></label>
+            <input asp-for="HobbyDetails" class="form-control">
+            <span asp-validation-for="HobbyDetails" class="text-danger"></span>
+        </div>
+        <div>
+            <input type="hidden" value="ViewBag.UserId">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Create</button>
+        </div>
+    </form>
+    <form asp-controller="Home" asp-action="Logout">
+        <button class="btn btn-warning">Log Out</button>
+    </form>
+</body>
+</html>

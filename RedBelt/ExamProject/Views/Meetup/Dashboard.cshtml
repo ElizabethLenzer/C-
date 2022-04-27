@@ -29,7 +29,7 @@
                     .Any(rsvp => rsvp.UserId == Context.Session.GetInt32("UserId"));
                     <tr>
                         <td><a asp-controller="Meetup" asp-action="Meetup" asp-route-meetupId="@meetup.MeetupId">@meetup.MeetupTitle</a></td>
-                        <td>@meetup.MeetUpDate.ToString("MM/dd/yyyy")</td>
+                        <td>@meetup.MeetUpDate</td>
                         <td>@meetup.MeetupDuration</td>
                         <td>@meetup.Author.FirstName</td>
                         <td>@meetup.MeetupAttendees.Count</td>
@@ -51,6 +51,7 @@
                             }
                             else
                             {
+                                <a href="edit/@meetup.MeetupId" class="btn btn-primary">EditMeetup</a>
                                 <form asp asp-controller="Meetup" asp-action="DeleteMeetup" asp-route-meetupId="@meetup.MeetupId">
                                     <button class="btn btn-danger">Delete</button>
                                 </form>

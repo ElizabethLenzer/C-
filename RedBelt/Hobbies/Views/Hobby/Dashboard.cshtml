@@ -1,0 +1,42 @@
+@model List<Hobby>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+</head>
+<body>
+    <div>
+        <h1>All Hobbies</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobbies</th>
+                    <th>Number of Participants</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Hobby hobby in Model)
+                {
+                    <tr>
+                        <td>
+                            <a asp-controller="Hobby" asp-action="Hobby" asp-route-hobbyId="@hobby.HobbyId">@hobby.HobbyName</a>
+                        </td>
+                        <td>
+                            @hobby.HobbyAttendees.Count
+                            @* @{hobby.HobbyAttendees.Count == 0?1:hobby.HobbyAttendees.Count} *@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="NewHobby" class="btn btn-primary">Add Hobby</a>
+        <form  asp-controller="Home" asp-action="Logout">
+            <button class="btn btn-warning">Logout</button>
+        </form>
+    </div>
+</body>
+</html>

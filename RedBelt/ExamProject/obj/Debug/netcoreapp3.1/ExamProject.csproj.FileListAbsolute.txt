@@ -63,3 +63,4 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\n
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\Dashboard.cshtml.g.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\Meetup.cshtml.g.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\NewMeetup.cshtml.g.cs
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\EditMeetup.cshtml.g.cs

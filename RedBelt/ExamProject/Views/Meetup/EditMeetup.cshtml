@@ -1,0 +1,52 @@
+@model Meetup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @using ExamProject.Models
+    <title>Edit</title>
+</head>
+<body>
+    <h1>Edit @Model.MeetupTitle</h1>
+
+<form asp-action="UpdateMeetup" asp-controller="Meetup">
+    <div class="form-group">
+        <label asp-for="MeetupTitle"></label>
+        <input asp-for="MeetupTitle" class="form-control" value="@Model.MeetupTitle">
+        <span asp-validation-for="MeetupTitle" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MeetUpDate"></label>
+        <input type="datetime-local" asp-for="MeetUpDate" id="MeetUpDate" class="form-control" value="@Model.MeetUpDate">
+        <span asp-validation-for="MeetUpDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MeetupDetails"></label>
+        <input asp-for="MeetupDetails" class="form-control" value="@Model.MeetupDetails" >
+        <span asp-validation-for="MeetupDetails" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MeetupDuration"></label>
+        <input asp-for="MeetupDuration"class="form-control" value="@Model.MeetupDuration">
+        <span asp-validation-for="MeetupDuration" class="text-danger"></span>
+        <select name="Timevalue" id="Timevalue_box">
+            <option value="Minutes">Minutes</option>
+            <option value="Hours">Hours</option>
+            <option value="Days">Days</option>
+        </select>
+    </div>
+    <input type="hidden" value="ViewBag.UserId">
+    <div class="form-group">
+        <button class="btn btn-primary">Update</button>
+    </div>
+</form>
+<form asp asp-controller="Meetup" asp-action="DeleteMeetup" asp-route-meetupId="@Model.MeetupId">
+    <button class="btn btn-danger">Delete</button>
+</form>
+<form asp-controller="Home" asp-action="Logout">
+    <button class="btn btn-warning">Log Out</button>
+</form>
+</body>
+</html>

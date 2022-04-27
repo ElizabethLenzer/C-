@@ -54,8 +54,15 @@ namespace ExamProject.Controllers
 
             return View("Dashboard", Meetups);
         }
+        [HttpGet("edit/{meetupId}")]
+        public IActionResult EditMeetup(int meetupid)
+        {
+            Meetup meetup = db.Meetups.FirstOrDefault(m => m.MeetupId == meetupid);
+            return View(meetup);
+        }
 
-        [HttpPost("delete/{Id}")]
+
+        [HttpPost("delete/{meetupId}")]
         public IActionResult DeleteMeetup(int meetupId)
         {
             Meetup meetup = db.Meetups.FirstOrDefault(m => m.MeetupId == meetupId);

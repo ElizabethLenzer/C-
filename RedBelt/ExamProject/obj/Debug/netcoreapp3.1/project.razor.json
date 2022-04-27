@@ -14437,6 +14437,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\RedBelt\\ExamProject\\Views\\Meetup\\EditMeetup.cshtml",
+      "TargetPath": "Views\\Meetup\\EditMeetup.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\RedBelt\\ExamProject\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
