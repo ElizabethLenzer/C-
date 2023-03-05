@@ -1,6 +1,5 @@
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\Hobbies.exe
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\Hobbies.deps.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\Hobbies.runtimeconfig.json
@@ -32,7 +31,6 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netco
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.csprojAssemblyReference.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.AssemblyInfoInputs.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.AssemblyInfo.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.csproj.CoreCompileInputs.cache
@@ -59,7 +57,14 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netco
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.Views.pdb
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.csproj.CopyComplete
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\Hobbies.StaticWebAssets.Manifest.cache
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\Hobbies.StaticWebAssets.xml
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.pdb
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.genruntimeconfig.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\bin\Debug\netcoreapp3.1\Hobbies.StaticWebAssets.xml
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.csproj.AssemblyReference.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\Hobbies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\Hobbies.StaticWebAssets.Pack.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Hobbies.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Hobbies.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Hobbies.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\Hobbies\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Hobbies.props

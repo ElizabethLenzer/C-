@@ -34,8 +34,10 @@ using Microsoft.AspNetCore.Http;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac51", @"/Views/Meetup/Dashboard.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"da4dde99cf3ebd0304f3f2f85e7804e991cdc0e6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0bac883cccd9063832b5b17a27d2cd5a8afd2a6", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Meetup_Dashboard : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Meetup>>
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Meetup", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Meetup", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -72,7 +74,7 @@ using Microsoft.AspNetCore.Http;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac515771", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac515817", async() => {
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n");
             }
             );
@@ -86,7 +88,7 @@ using Microsoft.AspNetCore.Http;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac516947", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac516993", async() => {
                 WriteLiteral(@"
     <div>
         <h1>All Meetups</h1>
@@ -114,7 +116,7 @@ using Microsoft.AspNetCore.Http;
 #line hidden
 #nullable disable
                 WriteLiteral("                    <tr>\r\n                        <td>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac518121", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac518167", async() => {
 #nullable restore
 #line 31 "C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\Views\Meetup\Dashboard.cshtml"
                                                                                                             Write(meetup.MeetupTitle);
@@ -194,7 +196,7 @@ using Microsoft.AspNetCore.Http;
 #line hidden
 #nullable disable
                 WriteLiteral("                                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac5112575", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac5112621", async() => {
                     WriteLiteral("\r\n                                <button class=\"btn btn-info btn-sm\">\r\n");
 #nullable restore
 #line 41 "C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\Views\Meetup\Dashboard.cshtml"
@@ -277,7 +279,7 @@ WriteAttributeValue("", 2252, meetup.MeetupId, 2252, 16, false);
 #nullable disable
                 EndWriteAttribute();
                 WriteLiteral(" class=\"btn btn-primary\">EditMeetup</a>\r\n                                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac5117480", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac5117526", async() => {
                     WriteLiteral("\r\n                                    <button class=\"btn btn-danger\">Delete</button>\r\n                                ");
                 }
                 );
@@ -331,7 +333,7 @@ WriteAttributeValue("", 2252, meetup.MeetupId, 2252, 16, false);
 #line hidden
 #nullable disable
                 WriteLiteral("            </tbody>\r\n        </table>\r\n        <a href=\"NewMeetup\" class=\"btn btn-primary\">Add Meetup</a>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac5121464", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5e8a84e7cc0f4eb7ee75d46bf7fcaa5af65ac5121510", async() => {
                     WriteLiteral("\r\n            <button class=\"btn btn-warning\">Log Out</button>\r\n        ");
                 }
                 );
@@ -365,16 +367,26 @@ WriteAttributeValue("", 2252, meetup.MeetupId, 2252, 16, false);
             WriteLiteral("\r\n</html>");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<List<Meetup>> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<List<Meetup>> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591

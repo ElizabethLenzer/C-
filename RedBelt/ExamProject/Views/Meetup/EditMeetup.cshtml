@@ -10,8 +10,9 @@
 </head>
 <body>
     <h1>Edit @Model.MeetupTitle</h1>
+<form asp-action="Update" asp-controller="Meetup">
 
-<form asp-action="UpdateMeetup" asp-controller="Meetup">
+@* <form asp-action="UpdateMeetup" asp-controller="Meetup"> *@
     <div class="form-group">
         <label asp-for="MeetupTitle"></label>
         <input asp-for="MeetupTitle" class="form-control" value="@Model.MeetupTitle">

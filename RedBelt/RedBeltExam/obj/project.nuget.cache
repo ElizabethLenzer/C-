@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WmIHcjGWixaOxzTu9p4Gu7Agsf5MG//fWcxIKH2zbv31qU2FNcV0m7lTt9pdPshXY6jzwg5yzIieQ2s15oPAsQ==",
+  "dgSpecHash": "BcSizYbw0SQ30rgMxAPvHCQz0zLplXY3AtqRtBt2dPTbNEjTw1q3BoT5gvJfi3ElGtbXCp212p7a66qA9KWuTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\eliza\\OneDrive\\Documents\\Coding Dojo\\C#\\RedBelt\\RedBeltExam\\RedBeltExam.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,9 @@
     "C:\\Users\\eliza\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\eliza\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\eliza\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\eliza\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\eliza\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\eliza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\eliza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }

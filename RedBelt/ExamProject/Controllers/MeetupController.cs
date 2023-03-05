@@ -61,6 +61,19 @@ namespace ExamProject.Controllers
             return View(meetup);
         }
 
+        [HttpPost("UpdateMeetup")]
+        public IActionResult Update(Meetup updateMeetup)
+        {
+            if(ModelState.IsValid == false)
+            {
+                ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
+                return View("NewMeetup");
+            }
+            updateMeetup.UserId = (int)uid;
+            db.Add(updateMeetup);
+            db.SaveChanges();
+            return RedirectToAction("Dashboard");
+        }
 
         [HttpPost("delete/{meetupId}")]
         public IActionResult DeleteMeetup(int meetupId)

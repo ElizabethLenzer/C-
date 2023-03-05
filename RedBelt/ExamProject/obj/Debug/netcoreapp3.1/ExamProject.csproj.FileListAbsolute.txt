@@ -1,6 +1,5 @@
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\ExamProject.exe
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\ExamProject.deps.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\ExamProject.runtimeconfig.json
@@ -32,7 +31,6 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\n
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.csprojAssemblyReference.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.AssemblyInfoInputs.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.AssemblyInfo.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.csproj.CoreCompileInputs.cache
@@ -56,7 +54,6 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\n
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.Views.pdb
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.csproj.CopyComplete
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\ExamProject.StaticWebAssets.Manifest.cache
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\ExamProject.StaticWebAssets.xml
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.pdb
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.genruntimeconfig.cache
@@ -64,3 +61,10 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\n
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\Meetup.cshtml.g.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\NewMeetup.cshtml.g.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\Razor\Views\Meetup\EditMeetup.cshtml.g.cs
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.csproj.AssemblyReference.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\ExamProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\ExamProject.StaticWebAssets.Pack.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.ExamProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.ExamProject.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.ExamProject.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\ExamProject\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.ExamProject.props

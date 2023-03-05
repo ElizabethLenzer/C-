@@ -1,6 +1,5 @@
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\RedBeltExam.exe
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\RedBeltExam.deps.json
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\RedBeltExam.runtimeconfig.json
@@ -32,7 +31,6 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\n
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.csprojAssemblyReference.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.AssemblyInfoInputs.cache
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.AssemblyInfo.cs
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.csproj.CoreCompileInputs.cache
@@ -59,7 +57,14 @@ C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\n
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.Views.pdb
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.csproj.CopyComplete
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\RedBeltExam.StaticWebAssets.Manifest.cache
-C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\RedBeltExam.StaticWebAssets.xml
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.dll
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.pdb
 C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.genruntimeconfig.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\bin\Debug\netcoreapp3.1\RedBeltExam.StaticWebAssets.xml
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.csproj.AssemblyReference.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\RedBeltExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\RedBeltExam.StaticWebAssets.Pack.cache
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.RedBeltExam.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.RedBeltExam.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.RedBeltExam.props
+C:\Users\eliza\OneDrive\Documents\Coding Dojo\C#\RedBelt\RedBeltExam\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.RedBeltExam.props
