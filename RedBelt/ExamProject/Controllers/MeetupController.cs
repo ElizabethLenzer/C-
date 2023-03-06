@@ -57,9 +57,20 @@ namespace ExamProject.Controllers
         [HttpGet("edit/{meetupId}")]
         public IActionResult EditMeetup(int meetupid)
         {
+            //You want to check for UserID here also
+
             Meetup meetup = db.Meetups.FirstOrDefault(m => m.MeetupId == meetupid);
-            return View(meetup);
+            Meetup ThisMeetUp = db.Meetups
+                .Include(u => u.UserId)
+                .FirstOrDefault(m => m.MeetupId == meetupid); // This will get the Meetup and push it to the view. That way you have all the data already in the View
+            return View(ThisMeetUp );
         }
+        // [HttpGet("edit/{meetupId}")]
+        // public IActionResult EditMeetup(int meetupid)
+        // {
+        //     Meetup meetup = db.Meetups.FirstOrDefault(m => m.MeetupId == meetupid);
+        //     return View(meetup);
+        // }
 
         [HttpPost("UpdateMeetup")]
         public IActionResult Update(Meetup updateMeetup)
